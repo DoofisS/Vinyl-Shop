@@ -1,0 +1,6 @@
+.vinyl {
+  height: 80vh;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}

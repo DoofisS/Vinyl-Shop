@@ -1,38 +1,50 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #323030;
+  margin: 0;
+}
+h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img1 {
+  background-image: url(../public/post.jpg);
+  background-size: cover;
+}
+.img2 {
+  background-image: url(../public//kiss.jpg);
+  background-size: cover;
+}
+.img3 {
+  background-image: url(../public//travis.jpg);
+  background-size: cover;
+}
+.img4 {
+  background-image: url(../public//rufus.jpg);
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* button */
+p {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+button {
+  width: 140px;
+  height: 40px;
+  background: #882426;
   color: white;
+  border: none;
+  font-family: "Pacifico", cursive;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  background: #c29545;
+  color: black;
+  transform: scale(1.05);
 }
