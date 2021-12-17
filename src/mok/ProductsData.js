@@ -64,7 +64,7 @@ const ProductsData = [
       "Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone",
   },
   {
-    id: 1,
+    id: 9,
     name: "Post Malone",
     price: "100$",
     image: "img1",
@@ -72,7 +72,7 @@ const ProductsData = [
       "Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone",
   },
   {
-    id: 2,
+    id: 10,
     name: "Post Malone",
     price: "80$",
     image: "img2",
@@ -80,7 +80,7 @@ const ProductsData = [
       "Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone",
   },
   {
-    id: 3,
+    id: 11,
     name: "Post Malone",
     price: "20$",
     image: "img3",
@@ -88,7 +88,7 @@ const ProductsData = [
       "Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone",
   },
   {
-    id: 4,
+    id: 12,
     name: "Post Malone",
     price: "55$",
     image: "img4",
@@ -96,7 +96,7 @@ const ProductsData = [
       "Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone",
   },
   {
-    id: 5,
+    id: 13,
     name: "Post Malone",
     price: "123$",
     image: "img3",
@@ -104,7 +104,7 @@ const ProductsData = [
       "Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone",
   },
   {
-    id: 6,
+    id: 14,
     name: "Post Malone",
     price: "900$",
     image: "img4",
@@ -112,7 +112,7 @@ const ProductsData = [
       "Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone",
   },
   {
-    id: 7,
+    id: 15,
     name: "Post Malone",
     price: "40$",
     image: "img1",
@@ -120,7 +120,7 @@ const ProductsData = [
       "Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone",
   },
   {
-    id: 8,
+    id: 16,
     name: "Post Malone",
     price: "20$",
     image: "img2",
