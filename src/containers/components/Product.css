@@ -1,0 +1,29 @@
+.vinyl-content {
+  transform: translateY(400px);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9));
+  height: 300px;
+  padding: 20px;
+  border: hidden;
+  border-radius: 20px;
+  transition: transform 700ms ease;
+}
+.plastinka {
+  max-height: 300px;
+  max-width: 300px;
+  color: white;
+  border: black 2px solid;
+  font-family: "Pacifico", cursive;
+  font-size: 1rem;
+  margin: 1em;
+  padding: 0.7em;
+  overflow: hidden;
+  transition: transform 300ms ease;
+  margin-top: 40px;
+}
+
+.plastinka:hover .vinyl-content {
+  transform: translateY(0);
+}
+.plastinka:hover {
+  transform: scale(1.07);
+}
