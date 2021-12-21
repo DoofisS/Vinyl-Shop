@@ -6,6 +6,12 @@ import Product from "./containers/components/Product";
 import ProductsData from "./mok/ProductsData";
 import React, { useState, useEffect } from "react";
 import ToTopButton from "./containers/components/ToTopButton";
+import CheckOut from "./containers/CheckOut";
+import {
+  BrowserRouter as Router,
+  Routes as Switch,
+  Route,
+} from "react-router-dom";
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -19,8 +25,6 @@ function App() {
     }
   }, []);
 
-  console.log(addedAmount);
-
   const renderProducts = products.map((product) => {
     return (
       <Product
@@ -32,13 +36,27 @@ function App() {
   });
 
   return (
-    <div>
+    <Router>
       <NavBar addedAmount={addedAmount} />
-      <Content>
-        <Vinyl>{renderProducts}</Vinyl>
-      </Content>
+      <Switch>
+        <Route
+          exact
+          path="/"
+          element={
+            <Content>
+              <Vinyl>{renderProducts}</Vinyl>
+            </Content>
+          }
+        />
+
+        <Route
+          path="/CheckOut"
+          element={<CheckOut setAddedAmount={setAddedAmount} />}
+        />
+      </Switch>
+
       <ToTopButton />
-    </div>
+    </Router>
   );
 }
 

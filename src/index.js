@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 
 let shopLoocalStorage = window.localStorage;
 localStorage.setItem("amount", "0");
+localStorage.setItem("cart", "[]");
 
 ReactDOM.render(
   <React.StrictMode>

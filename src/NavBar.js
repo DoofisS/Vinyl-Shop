@@ -1,20 +1,21 @@
 import "./NavBar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
-import React, { useState } from "react";
+import React from "react";
+import { Link } from "react-router-dom";
 
 const NavBar = ({ addedAmount }) => {
   return (
     <div className="navbar">
-      <a href="#" className="home">
+      <Link to="/" className="home">
         Home
-      </a>
-      <a href="#">Collection</a>
-      <a href="#">About Us</a>
-      <a href="#">
+      </Link>
+      <Link to="#">Collection</Link>
+      <Link to="#">About Us</Link>
+      <Link to="/CheckOut">
         <FontAwesomeIcon icon={faShoppingCart} />
         {addedAmount}
-      </a>
+      </Link>
     </div>
   );
 };

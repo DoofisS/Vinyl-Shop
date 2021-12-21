@@ -6,6 +6,7 @@ const ProductsData = [
     image: "img1",
     description:
       "Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone",
+    quantity: 1,
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ const ProductsData = [
     image: "img2",
     description:
       "Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone",
+    quantity: 1,
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ const ProductsData = [
     image: "img3",
     description:
       "Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone",
+    quantity: 1,
   },
   {
     id: 4,
@@ -30,6 +33,7 @@ const ProductsData = [
     image: "img4",
     description:
       "Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone",
+    quantity: 1,
   },
   {
     id: 5,
@@ -38,6 +42,7 @@ const ProductsData = [
     image: "img3",
     description:
       "Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone",
+    quantity: 1,
   },
   {
     id: 6,
@@ -46,6 +51,7 @@ const ProductsData = [
     image: "img4",
     description:
       "Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone",
+    quantity: 1,
   },
   {
     id: 7,
@@ -54,6 +60,7 @@ const ProductsData = [
     image: "img1",
     description:
       "Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone",
+    quantity: 1,
   },
   {
     id: 8,
@@ -62,6 +69,7 @@ const ProductsData = [
     image: "img2",
     description:
       "Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone",
+    quantity: 1,
   },
   {
     id: 9,
@@ -70,6 +78,7 @@ const ProductsData = [
     image: "img1",
     description:
       "Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone",
+    quantity: 1,
   },
   {
     id: 10,
@@ -78,6 +87,7 @@ const ProductsData = [
     image: "img2",
     description:
       "Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone",
+    quantity: 1,
   },
   {
     id: 11,
@@ -86,6 +96,7 @@ const ProductsData = [
     image: "img3",
     description:
       "Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone",
+    quantity: 1,
   },
   {
     id: 12,
@@ -94,6 +105,7 @@ const ProductsData = [
     image: "img4",
     description:
       "Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone",
+    quantity: 1,
   },
   {
     id: 13,
@@ -102,6 +114,7 @@ const ProductsData = [
     image: "img3",
     description:
       "Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone",
+    quantity: 1,
   },
   {
     id: 14,
@@ -110,6 +123,7 @@ const ProductsData = [
     image: "img4",
     description:
       "Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone",
+    quantity: 1,
   },
   {
     id: 15,
@@ -118,6 +132,7 @@ const ProductsData = [
     image: "img1",
     description:
       "Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone",
+    quantity: 1,
   },
   {
     id: 16,
@@ -126,6 +141,7 @@ const ProductsData = [
     image: "img2",
     description:
       "Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone Post-Malone",
+    quantity: 1,
   },
 ];
 
