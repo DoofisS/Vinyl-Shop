@@ -1,0 +1,27 @@
+.productContainer {
+  width: 60%;
+  display: flex;
+  float: left;
+  background-color: red;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.product {
+  width: 30%;
+  text-align: center;
+}
+
+.amount {
+  width: 30%;
+  text-align: center;
+}
+
+.paginator {
+  width: 30%;
+  text-align: center;
+}
+.button {
+  width: 50px;
+  margin: 10px;
+}

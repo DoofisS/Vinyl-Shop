@@ -1,4 +1,5 @@
 import "./Product.css";
+import { addProduct } from "../../Services/CartService";
 
 const Product = ({ product, setAddedAmount }) => {
   const addToLocalStorage = () => {
@@ -10,6 +11,7 @@ const Product = ({ product, setAddedAmount }) => {
       localStorage.setItem("amount", "1");
     }
     setAddedAmount(localStorageAmount + 1);
+    addProduct(product);
   };
 
   return (
