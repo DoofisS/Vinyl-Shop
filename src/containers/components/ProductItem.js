@@ -1,5 +1,4 @@
 import "./ProductItem.css";
-import { deleteProduct } from "../../Services/CartService";
 
 const ProductItem = (product) => {
   const plusProductItem = () => {
@@ -30,14 +29,11 @@ const ProductItem = (product) => {
       localStorage.setItem("amount", JSON.stringify(localStorageAmount - 1));
       product.setAddedAmount(localStorageAmount - 1);
     } else {
-      console.log(
-        localStorage.setItem(
-          "cart",
-          JSON.stringify(productItems.splice(productIndex, 1))
-        )
-      );
-      product.setAddedAmount(localStorageAmount - 1);
+      productItems.splice(productIndex, 1);
+      localStorage.setItem("cart", JSON.stringify(productItems));
       product.setProductItems(productItems);
+      localStorage.setItem("amount", JSON.stringify(localStorageAmount - 1));
+      product.setAddedAmount(localStorageAmount - 1);
     }
   };
 
